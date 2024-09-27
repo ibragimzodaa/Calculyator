@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <dialog class="editUserModal">
+        <form class="editUserForm">
+            <h2>Edit Profile</h2>
+            <br>
+            <input class="nameE" type="text" placeholder="Name">
+            <br>
+            <br>
+            <select class="select2E">
+                <option value="">Active</option>
+                <option value="">Inactive</option>
+            </select>
+            <br>
+            <br>
+            <input class="phoneE" type="text" placeholder="Phone">
+            <br>
+            <br>
+            <button class="saveE">SAVE</button>
+            <button class="cancelE">CANCEL</button>
+        </form>
+    </dialog>
+    <dialog class="profile">
+        <div class="k">
+            <img class="x" src="./icons/Vector (13).png" alt="">
+            <p>User info</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="d">
+            <img src="./images/Avatar.png" alt="">    
+            <h2>Jacob Jones</h2>
+            <p>jackson.graham@example.com</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="a">
+            <p><img class="im" src="./icons/Vector (10).png" alt=""> City</p>
+            <p>Dushanbe</p>
+        </div>
+        <br>
+        <div class="a">
+            <p><img class="im" src="./icons/Group (4).png" alt=""> Status</p>
+            <p>inactive</p>
+        </div>
+        <br>
+        <div class="a">
+            <p><img class="im" src="./icons/Vector (12).png" alt=""> Phone</p>
+            <p>88888 0090</p>
+        </div>
+    </dialog>
+    <dialog class="remove">
+        <p class="p1"><img class="im" src="./icons/Icon.png" alt=""> View profile</p>
+        <br>
+        <p class="p2"><img class="im" src="./icons/Vector.png" alt=""> Edit</p>
+        <br>
+        <hr>
+        <br>
+        <p class="p3"><img class="im" src="./icons/DeleteFilled.png" alt=""> Delete</p>
+    </dialog>
+    <dialog class="addUser">
+        <form class="addUserForm">
+            <h2>Add new</h2>
+            <br>
+            <br>
+            <br>
+
+            
+            <input type="url" class="name" name="inpImage" placeholder="Image">
+            <br><br>
+            <input class="name" name="inpName" type="text" placeholder="Name">
+            <br>
+            <br>
+            <select name="selectStatus" class="select2" >
+                <option value="">Active</option>
+                <option value="">Inactive</option>
+            </select>
+            <br>
+            <br>
+            <input class="select3" name="inpCountry" type="text" placeholder="Country">
+            <br>
+            <br>
+            <input class="phone" name="inpPhone" type="text" placeholder="Phone">
+            <br>
+            <br>
+            <button class="save inp" type="submit">SAVE</button>
+            <button class="cancel inp" type="button">CANCEL</button>
+        </form>
+    </dialog>
+    <div class="nav">
+        <h2>User List</h2>
+        <div class="m">
+            <button class="but1"><img class="img" src="./images/Masked Icon.png" alt=""> NEW</button>
+            <div class="main1">
+                <button class="but2"><img class="img" src="./images/light_mode.png" alt=""> LIGHT</button>
+                <button class="but3"> DARK <img class="img1" src="./images/dark_mode.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <div class="nav1">
+        <form>
+            <fieldset class="fiel">
+                <legend>Status</legend>
+                <select class="select">
+                    <option value="">ALL STATUS</option>
+                    <option value="">ACTIVE</option>
+                    <option value="">INACTIVE</option>
+                </select>
+            </fieldset>
+            <fieldset class="fiel">
+                <legend>City</legend>
+                <select class="select1">
+                    <option value="">ALL CITES</option>
+                    <option value="">DUSHANBE</option>
+                    <option value="">KULOB</option>
+                    <option value="">KHUJAND</option>
+                    <option value="">HISOR</option>
+                </select>
+            </fieldset>
+        </form>
+        <fieldset>
+            <legend>Search</legend>
+            <input class="inputSearch" type="search" placeholder="Name, email, etc..." > <img class="ig" src="./images/SearchFilled.png" alt="" width="15px">
+        </fieldset>
+    </div>
+    <table>
+        <thead>
+            <tr class="tr1">
+                <th class="th"><img class="imh" src="./icons/user-icon.png" alt="">Name</th>
+                <th class="th"><img class="imh" src="./icons/Vector (10).png" alt="">Country</th>
+                <th class="th"><img class="imh" src="./icons/Group (4).png" alt="">Status</th>
+                <th class="th"><img class="imh" src="./icons/Vector (12).png" alt="">Phone</th>
+                <th>.</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+    
+        </tbody>
+    </table>
+    <script type="module" src="/table/js/main.js"></script>
+</body>
+</html>

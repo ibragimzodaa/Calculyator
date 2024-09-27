@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.but1{
+    display: flex;
+    align-items: center;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.img{
+     margin-right: 3px;
+}
+.img1{
+    margin-left: 3px;
+}
+.but2{
+    display: flex;
+    align-items: center;
+    background-color: #00000014;
+    color: black;
+    /* border: none; */
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.but3{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.main1{
+    display: flex;
+}
+.m{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.select{
+    border: 1px solid white;
+}
+.select1{
+    border: 1px solid white;
+}
+.select2{
+    width: 205px;
+    padding: 10px;
+}
+
+.select3E{
+    width: 205px;
+    padding: 10px;
+}
+.select2E{
+    width: 205px;
+    padding: 10px;
+}
+
+.select3{
+    width: 205px;
+    padding: 10px;
+}
+.fiel{
+    width: 130px;
+    border: 1px solid gray;
+}
+form{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.nav1{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.inputSearch{
+    border: none;
+}
+ .th{
+    align-items: center;
+ }
+
+ .imh{
+    margin-right: 10px;
+ }
+ table{
+   border-collapse: collapse;
+   margin-top: 20px; 
+   width: 90%;
+   margin-left: 62px;
+ }
+ th,tr,td{
+    padding: 30px 25px;
+    border-bottom: 1px solid gray;
+    text-align: start;
+ }
+ .addUser{
+    width: 225px;
+    margin: auto;
+    border: none;
+    padding: 40px;
+ }
+ .editUserModal{
+    width: 225px;
+    height: 400px;
+    margin: auto;
+    border: none;
+    padding: 40px;
+ }
+.editUserForm{
+   flex-wrap: wrap;
+}
+ .name{
+    width: 205px;
+    padding: 10px;
+ }
+ .phone{
+    width: 205px;
+    padding: 10px;
+ }
+ .save{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+ }
+ .cancel{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+ }
+ .nameE{
+    width: 205px;
+    padding: 10px;
+ }
+ .phoneE{
+    width: 205px;
+    padding: 10px;
+ }
+ .saveE{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+ }
+ .cancelE{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+ }
+ .em{
+    position: absolute;
+    bottom: 275px;
+    left: 140px;
+    border: none;
+ }
+ .b{
+    background-color: green ;
+    border: none;
+    color: white;
+    width: 40px;
+    font-size: 18px;
+ }
+ .p1{
+    display: flex;
+    align-items: center;
+ }
+ .p2{
+    display: flex;
+    align-items: center;
+ }
+ .p3{
+    display: flex;
+    align-items: center;
+ }
+ .im{
+    margin-right: 10px;
+ }
+ .remove{
+    border: none;
+    position: absolute;
+    left: 910px;
+    top: 290px;
+ }
+ .a{
+    display: flex;
+    justify-content: space-between;
+ }
+ .d{
+    text-align: center;
+ }
+.k{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    border: none;
+    padding: 30px;
+    position: absolute;
+    left: 976px;
+}
+
+.inputSearch{
+   outline: none;
+}
+input{
+   border: none;
+   border-bottom: 1px solid black;
+   outline: none;
+   outline-color: blue;
+}
+.ig{
+   position: relative;
+   top: 3px;
+}
+
+select{
+   outline: none;
+}
+.div{
+   display: flex;
+   align-items: center;
+}
+.divs{
+   display: flex;
+   position: relative;
+   bottom: 20px;
+   width: 160px;
+   justify-content: space-between;
+}
+.addUserForm{
+   width: 200px;
+   height: 400px;
+   flex-wrap: wrap;
+}
+.inp{
+   margin-top: 10px;
+   margin-left: -40px;
+}
